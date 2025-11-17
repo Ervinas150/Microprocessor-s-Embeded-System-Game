@@ -1,0 +1,12 @@
+#ifndef SERIAL_H
+#define SERAIL_H
+
+#include <stdint.h>
+
+void initSerial(void);
+void eputchar(char c);
+char egetchar(void);
+void eputs(char *String);
+void printDecimal(int32_t Value);
+
+#endif
